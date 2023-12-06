@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @TORY-SKY
 - 👀 I’m interested in Learning and implementing what i've learned
-- 🌱 I’m currently learning JavaScript
+- 🌱 I’m currently learning React
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me email: ezevictor559@gmail.com
 
