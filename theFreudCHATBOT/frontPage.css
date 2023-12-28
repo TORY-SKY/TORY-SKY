@@ -1,0 +1,672 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: rgba(75, 52, 37, 1);
+   font-family: 'Nova Square', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Urbanist', sans-serif;
+    
+}
+.MenuDrop{
+    background-color: rgba(75, 52, 37, 1);
+    background-image: url('./images/BG\ \(2\).png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 900;
+    border-radius: 30px;
+    width: 100vw;
+    display: none;
+    transition: 3s;
+    top: -100%;
+    
+}
+.handBugerMenu{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.2);
+}
+.handBugerMenu:hover{
+    color:  rgba(146, 98, 71, 1);
+}
+.callMAILLogo span{
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+    align-items: center;
+}
+.callMAILLogo span:hover{
+    background-color: rgba(75, 52, 37, 1);
+}
+
+.dropdownmenu{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+   /* display: grid;*/
+    grid-template-columns: 50% 50%;
+    padding-top: 40px;
+    margin-top: 60px;
+    border-radius: 30px
+   
+
+    
+   /* background-color: rgba(109, 75, 54, 1);  */
+    
+}
+
+.dropdownmenu ul{
+    display: grid;
+    align-items: flex-end;
+    justify-content: left;
+    flex-direction: column;
+    
+
+}
+.dropdownmenu a{
+    text-decoration: none;
+    color: white;
+    font-family: 600;
+    font-size: 2rem;
+}
+.dropdownmenu ul li{
+
+    margin-bottom: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+    border-radius: 30px;
+}
+.dropdownmenu ul li:hover{
+    background-color: rgba(75, 52, 37, 1);
+
+}
+.dropdownmenu ul .active{
+    background-color: rgba(75, 52, 37, 1);
+
+}
+.dropdownmenu ul .active svg{
+    visibility: visible;
+    margin-right: 10px;
+   
+
+}
+.dropdownmenu ul li svg{
+    visibility: hidden;
+    margin-right: 10px;
+    
+}
+.dropdownmenu ul li:hover svg{
+   visibility: visible;
+   
+   
+}
+.Terms-and-condition{
+    padding: 4px;
+    display: grid;
+    
+    grid-template-columns: 100%;
+    font-family: 'Nova Square', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Urbanist', sans-serif;
+
+color: #ffff
+}
+.TERM{
+    display: flex;
+    
+}
+.TERM p, li{
+    font-size: 0.7rem;
+    color: #ffff;
+    font-weight: 700;
+    font-family: 'Nova Square', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Urbanist', sans-serif;
+}
+.TERM li::marker{
+    color: rgba(146, 98, 71, 1);
+}
+.Harnessing{
+    max-width: 300px;
+    font-size: 1rem;
+}
+
+.callTOac{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 3px;
+    width: auto;
+
+}
+.locationCall{
+    background-color: rgba(109, 75, 54, 1);
+   text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.AppleStoreGoogle{
+    background-color: #ffff;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+
+}
+
+.AppleStoreGoogle button{
+    padding: 5px;
+    margin: 4px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.AppleStoreGoogle button:first-child{
+    background-color: rgba(254, 129, 75, 1);
+}
+.AppleStoreGoogle button:last-child{
+    background-color: rgba(155, 176, 104, 1);
+}
+
+main{
+    background: url('./images/3DBGasset.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.MarkerImg{
+    position: relative;
+}
+
+.HeroNav{
+    background-color: rgba(247, 244, 242, 1);
+    border-radius: 1234px;
+    z-index: 50000;
+    top: 0;
+    position: absolute;
+    
+    
+}
+.SectionOne{
+    z-index: 5000;
+}
+.OURPARENT {
+    justify-content: center;
+    background-color: rgba(232, 221, 217, 1);
+    align-items: center;
+    border-radius: 1000px;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+    max-width: fit-content;
+   }
+   .OURPARENT span {
+    
+    color: rgba(146, 98, 71, 1);
+    font-weight: 700;
+    font-family: 'Nova Square', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Urbanist', sans-serif;
+   }
+   
+
+   .heroContent{
+    max-width: fit-content;
+    margin-left: 90px;
+    
+   }
+   .heroContent h1{
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    color: rgba(75, 52, 37, 1);
+    
+   }
+   .heroContent p{
+    font-size: 1.6rem;
+    font-weight: 100;
+    max-width:fit-content;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+   }
+    .AIchatbot{
+    color: rgba(254, 129, 75, 1);
+   }
+
+   .HeroBTNS{
+    display: flex;
+}
+.HeroBTNS button{
+    border-radius: 1000px;
+    padding: 10px;
+    margin-left: 12px;  
+}
+.HeroBTNS button:first-child{
+    border-color: rgba(75, 52, 37, 1);
+}
+.HeroBTNS button:last-child{
+    background-color: rgba(155, 176, 104, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heroContent img{
+    position: relative;
+    bottom: 20;
+    z-index: -1;
+}
+ .downloadICON{
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 800px;
+    display: flex;
+    justify-content: center;
+    z-index: 250;
+    cursor: pointer;
+
+}
+button{
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+.bgImgDiv img{
+   position: relative;
+   z-index: 21;
+  
+   
+}
+.SOCIALS{
+    border-radius: 30px;
+    position: relative;
+}
+
+.SOCIALS::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 30;
+    box-shadow: 10px 4px 70px 0 rgb(255, 255, 255);
+
+    
+    }
+    .PurposeS{
+        background-color: rgba(247, 244, 242, 1);
+        border-radius: 30px;
+    }
+    .PURPOSESECTION{
+        width: fit-content;
+        height: fit-content;
+    }
+    .OurPurposeText h1{
+        color: rgba(75, 52, 37, 1);
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        line-height: 40px;
+        max-width: 550px;
+        margin: 12px auto;
+    }
+    .OurPurposeText span{
+        color: rgba(146, 98, 71, 1);
+    }
+    
+    .AchieveCards{
+       
+        
+    }
+    .AchieveCards .downloadBtn{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .AchieveCards .downloadICON{
+        background-color: rgba(247, 244, 242, 1);
+        padding: 20px;
+       
+    }
+    .Thecards{
+        border-radius: 30px;
+        margin-bottom: 5px;
+        margin-left: 0;
+        background-color: white;
+    }
+   
+    .Thecards h1{
+        font-size: 4.5rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        background-color: (75, 52, 37, 1);
+    }
+    .SeeNumbers{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .whereWegetN  {
+        font-size: 0.7rem;
+        font-weight: 600;
+        background-color: rgba(229, 234, 215, 1);
+        border-radius: 30px;
+        padding: 10px
+    }
+    .seeAll a{
+        text-decoration: none;
+        color: rgba(75, 52, 37, 1);
+    }
+    .seeAll .downloadICON{
+        background-color: rgba(75, 52, 37, 1);
+    }
+    
+.FEATURES{
+    background-color: rgba(155, 176, 104, 1);
+    border-radius: 30px;
+    background-image: url('./images/BG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} 
+.JAD-GERIA{
+    font-size: 3.5rem;
+    color: white;
+}
+.FEATURES .OURPARENTT{
+    background-color: rgba(207, 217, 181, 1);
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border-radius: 30px;
+    width: fit-content;
+    
+}
+
+.FEATURES .OURPARENTT span{
+    color: rgba(61, 74, 38, 1);
+    font-weight: 600;
+    float: left;
+    display: flex;
+    justify-content: left;
+
+}
+.Total{
+    color: rgba(229, 234, 215, 1);
+}
+.FeaturesCardContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.featureCards{
+    border-radius: 30px;
+}
+.featureCards .downloadICON{
+    background-color: rgba(255, 206, 92, 1);
+}
+.featureCards h1{
+    color: rgba(75, 52, 37, 1);
+    font-weight: 700;
+    
+}
+.featureCards h1, p{
+    font-family: 'Urbanist';
+   
+
+}
+.featureCards p{
+    color: rgba(31, 22, 15, 0.64);
+    line-height: 25px;
+    font-size: 1rem;
+    
+}
+.featureCards a{
+    color: rgba(75, 52, 37, 1);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Urbanist';
+}
+
+
+.BENEFITS{
+    background-color: rgba(232, 221, 217, 1);
+    padding: 6px;
+    border-radius: 30px;
+    width: fit-content;
+}
+.BENEFITS span{
+    color: #926247FF;
+}
+.SectionFour{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Numbs{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    color:rgba(75, 52, 37, 1);
+}
+
+.SelfCa{
+    display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+    .dropdownmenu{
+        text-align: center;
+        background-image: url('./images/BG\ \(3\).png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .dropdownmenu ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+
+    }
+    .dropdownmenu a{
+        text-decoration: none;
+        color: white;
+        
+        font-size: 1.5rem;
+    }
+    .dropdownmenu ul li{
+        list-style-type: none;
+        margin-bottom: 10px;
+        list-style-type: none;
+       
+        padding: 12px;
+        border-radius: 30px;
+    }
+    .dropdownmenu ul li:hover{
+        background-color: rgba(75, 52, 37, 1);
+
+    }
+    .dropdownmenu ul li svg{
+        visibility: hidden;
+        margin-right: 3px;
+        
+    }
+    .dropdownmenu ul li:hover svg{
+       visibility: visible;
+    }
+
+    .Terms-and-condition{
+        display: none;
+    }
+    .AppleStoreGoogle{
+        flex-direction: column;
+        display: none;
+    }
+    .AppleStoreGoogle button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+
+
+    main{
+        max-width: 100vw;
+        background: none;
+       
+    }
+    
+   
+
+    
+   nav .callMAILLogo{
+    display: none !important;
+   }
+   
+
+   .OURPARENT {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:fit-content;
+    padding: 6px;
+    text-align: center !important;
+
+   }
+   .OURPARENT span {
+   
+    font-size: 0.5rem;
+    
+   }
+   .heroContent{
+    margin-left: 0;
+    margin-bottom: 0;
+   }
+.heroContent h1{
+    text-align: center;
+    font-size: 2rem;
+    gap: 30px;
+
+}
+.heroContent p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.HeroBTNS{
+    flex-direction: column;
+}
+.HeroBTNS button{
+    margin-bottom: 12px;
+    font-size: large;
+    
+    
+}
+.heroContent img{
+    left: 20;
+}
+
+.bgImgDiv{
+    position: relative;
+    display: flex;
+    background-image: url('./images/phone3DAsset.png');
+    background-position: center;
+    background-size: 25rem;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    
+}
+.bgImgDiv img{
+}
+.OurPurposeText h1{
+    text-align: center;
+}
+
+.Thecards{
+    
+}
+
+.Thecards h1{
+    font-size: 2.5rem;
+}
+
+.AchieveCards .downloadBtn{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px;
+}
+.AchieveCards .Card-text{
+    
+}
+
+.SeeNumbers{
+    display: block;
+}
+.whereWegetN{
+    max-width: fit-content;
+    margin: 2px auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.JAD-GERIA{
+    font-size: 1.6rem;
+    line-height: 25px;
+}
+
+.FEATURES{
+    background-color: rgba(155, 176, 104, 1);
+    background-image: url('./images/PhoneFeatureBg.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+    
+} 
+.FeaturesCardContainer{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.FeaturesCardContainer h1{
+    font-size: 1.3rem;
+}
+.Total{
+    color: rgba(229, 234, 215, 1);
+}
+
+
+.Numbs span{
+    color: rgba(146, 98, 71, 1);
+}
+.SectionFour{
+    grid-template-columns: 100%;
+}
+
+
+  }
+ 
